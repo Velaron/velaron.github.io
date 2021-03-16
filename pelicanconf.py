@@ -3,6 +3,7 @@
 
 AUTHOR = 'Velaron'
 SITENAME = 'blog.bds'
+SITESUBTITLE = 'i have crippling depression'
 SITEURL = ''
 
 PATH = 'content'
