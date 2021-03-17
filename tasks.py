@@ -123,7 +123,8 @@ def gh_pages(c):
           '-m {commit_message} '
           '{deploy_path} -p'.format(**CONFIG))
 	
-    c.run('git commit -am "Update site sources"')
+    c.run('git add --all')
+    c.run('git commit -m "Update site sources"')
     c.run('git push')
 
 def pelican_run(cmd):
