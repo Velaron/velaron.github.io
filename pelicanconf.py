@@ -30,6 +30,7 @@ DEFAULT_PAGINATION = 10
 # Theme
 THEME = 'themes/pelican-alchemy/alchemy'
 THEME_CSS_OVERRIDES = ['theme/css/oldstyle.css']
+THEME_TEMPLATES_OVERRIDES = ['templates']
 
 # Bootstrapify
 PLUGIN_PATHS = ['plugins']
