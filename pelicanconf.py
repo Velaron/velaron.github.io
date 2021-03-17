@@ -61,3 +61,7 @@ EXTRA_PATH_METADATA = {
 STATIC_PATHS = ['extras', 'images']
 DEFAULT_CATEGORY = "Uncategorized"
 DESCRIPTION = 'welcome to the bodis zone'
+
+# Utterances
+UTTERANCES_REPOSITORY = 'Velaron/velaron.github.io'
+UTTERANCES_THEME = 'github-light'
