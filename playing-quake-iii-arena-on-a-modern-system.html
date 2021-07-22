@@ -74,16 +74,17 @@
 <h1>Download ioquake3</h1>
 <p><a href="https://ioquake3.org/">ioquake3</a> is a modern source-port based on the original source code with improvements and cross-platform capabilities. At the moment, the website is broken after a migration and the downloads don't work, direct links to the builds can be found below:</p>
 <ul>
-<li><a href="https://github.com/ioquake/ioq3/suites/2008680198/artifacts/40183181">Linux</a></li>
-<li><a href="https://github.com/ioquake/ioq3/suites/2008680198/artifacts/40183183">Windows</a></li>
-<li><a href="https://github.com/ioquake/ioq3/suites/2008680198/artifacts/40183182">macOS</a></li>
+<li><a href="https://github.com/ioquake/ioq3/suites/3288039970/artifacts/76728853">Linux</a></li>
+<li><a href="https://github.com/ioquake/ioq3/suites/3288039970/artifacts/76728855">Windows</a></li>
+<li><a href="https://github.com/ioquake/ioq3/suites/3288039970/artifacts/76728854">macOS</a></li>
 </ul>
+<p><em>Update: the download page seems to work now, but I will leave these just in case.</em></p>
 <p>Inside the archive, you will find another archive, contents of which you have to put inside your Quake III installation folder.</p>
 <h1>Creating a config</h1>
 <p>Easiest way to configure the game is creating an <strong>autoexec.cfg</strong> file inside <strong>baseq3</strong> folder. Copy the following contents into the file:</p>
 <div class="highlight"><pre><span></span><code>r_mode -2 // automatically selects your native resolution
-com_maxfps 125
-com_hunkmegs 128
+com_maxfps 125 // explanation: https://www.youtube.com/watch?v=P13KmJBNn1c
+com_hunkmegs 128 // even Team Arena crashes if you don't increase this
 r_fullscreen 1
 </code></pre></div>
 <h1>Recommended mods</h1>

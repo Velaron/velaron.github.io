@@ -6,16 +6,17 @@
 &lt;h1&gt;Download ioquake3&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://ioquake3.org/"&gt;ioquake3&lt;/a&gt; is a modern source-port based on the original source code with improvements and cross-platform capabilities. At the moment, the website is broken after a migration and the downloads don't work, direct links to the builds can be found below:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/ioquake/ioq3/suites/2008680198/artifacts/40183181"&gt;Linux&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ioquake/ioq3/suites/2008680198/artifacts/40183183"&gt;Windows&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ioquake/ioq3/suites/2008680198/artifacts/40183182"&gt;macOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ioquake/ioq3/suites/3288039970/artifacts/76728853"&gt;Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ioquake/ioq3/suites/3288039970/artifacts/76728855"&gt;Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ioquake/ioq3/suites/3288039970/artifacts/76728854"&gt;macOS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Update: the download page seems to work now, but I will leave these just in case.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Inside the archive, you will find another archive, contents of which you have to put inside your Quake III installation folder.&lt;/p&gt;
 &lt;h1&gt;Creating a config&lt;/h1&gt;
 &lt;p&gt;Easiest way to configure the game is creating an &lt;strong&gt;autoexec.cfg&lt;/strong&gt; file inside &lt;strong&gt;baseq3&lt;/strong&gt; folder. Copy the following contents into the file:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;r_mode -2 // automatically selects your native resolution
-com_maxfps 125
-com_hunkmegs 128
+com_maxfps 125 // explanation: https://www.youtube.com/watch?v=P13KmJBNn1c
+com_hunkmegs 128 // even Team Arena crashes if you don't increase this
 r_fullscreen 1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1&gt;Recommended mods&lt;/h1&gt;
