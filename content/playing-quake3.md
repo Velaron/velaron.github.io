@@ -4,7 +4,7 @@ Summary: If you decided you don't want to give Quake Live a go, which is honestl
 
 If you decided you don't want to give [Quake Live](https://store.steampowered.com/app/282440/Quake_Live/) a go, which is honestly a better choice for playing online, you can still do some things to run Quake III: Arena more comfortably.
 
-![Quake III Logo]({filename}/images/quake-iii-logo.png)
+![Quake III Logo]({static}/images/quake-iii-logo.png)
 
 # First of all, you need to get Quake III
 You can get it on [Steam](https://store.steampowered.com/app/2200/Quake_III_Arena/), [GOG](https://www.gog.com/game/quake_iii_gold) or any other platform of choice. Both versions come with the **Team Arena** expansion. All you need is the **baseq3** and **expansionpack** folders from the game's folder.
