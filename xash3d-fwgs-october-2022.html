@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>  Xash3D FWGS - October 2022 | blog.bds
+</title>
+  <link rel="canonical" href="https://velaron.github.io/xash3d-fwgs-october-2022.html">
+
+    <link rel="apple-touch-icon" href="https://velaron.github.io/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="https://velaron.github.io/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://velaron.github.io/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://velaron.github.io/manifest.json">
+    <meta name="theme-color" content="#333333">
+
+  <link rel="stylesheet" href="https://velaron.github.io/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://velaron.github.io/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://velaron.github.io/theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="https://velaron.github.io/theme/css/theme.css">
+  <link rel="stylesheet" href="https://velaron.github.io/theme/css/oldstyle.css">
+
+  <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
+        href="https://velaron.github.io/feeds/all.atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
+        href="https://velaron.github.io/feeds/xash3d-fwgs.atom.xml">  
+  <meta name="description" content="Catching up on what was going on with the engine until now.">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="title"><a href="https://velaron.github.io/">blog.bds</a></h1>
+      <p class="text-muted">i have crippling depression</p>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://velaron.github.io/#" target="_blank">blog</a></li>
+      </ul>
+  </div>
+</div>    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>  Xash3D FWGS - October 2022
+</h1>
+      <hr>
+  <article class="article">
+    <header>
+      <ul class="list-inline">
+        <li class="list-inline-item text-muted" title="2022-11-16T20:00:00+02:00">
+          <i class="fas fa-clock"></i>
+          16/11/2022
+        </li>
+        <li class="list-inline-item">
+          <i class="fas fa-folder-open"></i>
+          <a href="https://velaron.github.io/category/xash3d-fwgs.html">Xash3D FWGS</a>
+        </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user"></i>
+              <a href="https://velaron.github.io/author/velaron.html">Velaron</a>          </li>
+      </ul>
+    </header>
+    <div class="content">
+      <p>As you may have noticed, we often refer to the engine as "old engine", that's because for a while now we have been moving onto a new codebase, refactoring and adding features along, such as much requested <strong>voice chat</strong>.</p>
+<h1>What Is Coming?</h1>
+<h5>by <a href="https://github.com/FWGS"><strong>Flying With Gauss</strong></a></h5>
+<p><strong>Better network prediction and overall multiplayer improvements.</strong><br/>
+I mean it, much better, playing multiplayer now sometimes feels like better than on GoldSrc, but it still needs some work.</p>
+<p><strong>Enhanced compatibility with GoldSrc.</strong><br/>
+Support for original Half-Life game saves and compatibility fixes.</p>
+<p><strong>Customization support.</strong><br/>
+Finally you can change your spray and more, with in-game downloads support!</p>
+<p><strong>The "small" stuff:</strong> </p>
+<ul>
+<li>
+<p>Implementation of an extended map format made on top of original Half-Life's BSP30 (per-vertex lighting, extended clipnodes, etc.), BSP31 is now obsolete.</p>
+</li>
+<li>
+<p>Implementation of Unkle Mike's extended studiomodel format: bone weights, inverse kinematics, procedural bones and other stuff for mod developers.</p>
+</li>
+<li>
+<p>RefAPI for multiple rendering APIs support.</p>
+</li>
+<li>
+<p>OpenGL renderer split from engine to ref_gl library.</p>
+</li>
+<li>
+<p>Software renderer implementation. Incomplete, but playable.</p>
+</li>
+<li>
+<p>Improved platform backend system that allows better portability across different systems.</p>
+</li>
+<li>
+<p>Extension on library naming, that allows mod developers to distribute libraries for different operating systems and architectures in the same archive.</p>
+</li>
+<li>
+<p>New library for common code: libpublic, that holds custom Xash3D's CRT, math and hashing functions.</p>
+</li>
+<li>
+<p>New touch control: <em>_wheel</em>, works like a mouse wheel.</p>
+</li>
+<li>
+<p>Temporary support for legacy 48 protocol.</p>
+</li>
+<li>
+<p>Restored On-Screen Keyboard implementation for ports that don't have normal HW or SW keyboards.</p>
+</li>
+<li>
+<p>Support of AArch64, MIPS, Elbrus CPU architectures.</p>
+</li>
+<li>
+<p>Support of MotoMAGX platform.</p>
+</li>
+<li>
+<p>Support for systems with limited system memory. Allows to run complete engine on 32 megabytes of RAM.</p>
+</li>
+<li>
+<p>Support for embedded Linux, i.e. using evdev, fbdev and alsa directly instead of SDL2.</p>
+</li>
+<li>
+<p>Support for legacy SDL1.2.</p>
+</li>
+<li>
+<p>Support for compressed ZIP/PK3 archives.</p>
+</li>
+<li>
+<p>Linux builds are now distributed as AppImages for i686 and x86_64 platforms and dedicated builds are just a semi-static binary.</p>
+</li>
+<li>
+<p>Ongoing work on documentation of FWGS extensions, engine porting guide and ports maintainers list.</p>
+</li>
+</ul>
+<h1>Voice Chat</h1>
+<h5>by <a href="https://github.com/a1batross"><strong>a1batross</strong></a>, <a href="https://github.com/SNMetamorph"><strong>SNMetamorph</strong></a> and <a href="https://github.com/Velaron"><strong>Velaron</strong></a></h5>
+<p>Voice chat support is finally coming to all platforms, as requested by many for years.</p>
+<h1>New Android Port</h1>
+<h5>by <a href="https://github.com/Velaron"><strong>Velaron</strong></a></h5>
+<p>We moved to SDL2 as our backend, it used to suck back then, but right now our implementation seems to suck more. You know what also sucks? Google with their OS. They keep being so paranoid about user's "security", we need to do a lot of work just to make this thing running. Right now we need to write a new frontend and finish up on fixing bugs before releasing a stable build, but it's coming better than ever.</p>
+<ul>
+<li>
+<p>Android builds have GLES1 and GLES2 renderers enabled, choose from game menu or by passing <code>-ref gles1</code> or <code>-ref gles2</code> to the command line.</p>
+</li>
+<li>
+<p>Android builds also have special mod hacks, allowing you to play some mods without any additional launchers.</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="n">MOD_VALVE</span><span class="p">,</span><span class="w">      </span><span class="c1">// Half-Life</span>
+<span class="n">MOD_AOM</span><span class="p">,</span><span class="w">        </span><span class="c1">// Afraid of Monsters</span>
+<span class="n">MOD_BIGLOLLY</span><span class="p">,</span><span class="w">   </span><span class="c1">// Big Lolly</span>
+<span class="n">MOD_BSHIFT</span><span class="p">,</span><span class="w">     </span><span class="c1">// Half-Life: Blue Shift</span>
+<span class="n">MOD_HALFSECRET</span><span class="p">,</span><span class="w"> </span><span class="c1">// Half-Secret</span>
+<span class="n">MOD_HEVSUIT</span><span class="p">,</span><span class="w">    </span><span class="c1">// Case Closed, Bloody Pizza: Vendetta, Borderlands</span>
+<span class="n">MOD_INDUCTION</span><span class="p">,</span><span class="w">  </span><span class="c1">// Half-Life: Induction</span>
+<span class="n">MOD_REDEMPT</span><span class="p">,</span><span class="w">    </span><span class="c1">// Redemption/Absolute Redemption</span>
+<span class="n">MOD_SEWER_BETA</span><span class="p">,</span><span class="w"> </span><span class="c1">// Sewer Beta</span>
+<span class="n">MOD_TOT</span><span class="p">,</span><span class="w">        </span><span class="c1">// Times of Troubles</span>
+<span class="n">MOD_URBICIDE</span><span class="w">    </span><span class="c1">// Half-Life: Urbicide</span>
+</code></pre></div>
+<h1>filesystem_stdio Implementation</h1>
+<h5>by <a href="https://github.com/a1batross"><strong>a1batross</strong></a></h5>
+<p>Engine's filesystem was moved into a separate module, which also implements support for Valve's interface allowing to run more mods and clean up the codebase.</p>
+<h1>Drop of OSX/iOS support</h1>
+<h5>by <a href="https://github.com/FWGS"><strong>Flying With Gauss</strong></a></h5>
+<p>Sadly we had to drop Apple devices support, simply because we don't and probably not going to own any of them and they keep removing essential features from the OS (see <a href="https://github.com/FWGS/xash3d-fwgs/issues/61">issue #61</a>). If you own any of these devices and are willing to maintain the engine for them, you are welcome!</p>
+<h1>PNG support</h1>
+<h5>by <a href="https://github.com/nekonomicon"><strong>nekonomicon</strong></a></h5>
+<p>Engine supports reading and writing PNGs now, so you can use an accessible format for your touch buttons and more. Due to conversion of touch button graphics, you may need to reset your touch configuration if you are missing some textures.</p>
+    </div>
+  </article>
+<hr>
+<div id="utterances_thread"></div>
+<script src="https://utteranc.es/client.js"
+	repo="Velaron/velaron.github.io"
+	issue-term="pathname"
+	label="Comment"
+	theme="github-light"
+	crossorigin="anonymous"
+	async>
+</script>
+<noscript class="text-muted">
+	Please enable JavaScript to view the <a href="https://utteranc.es/" rel="nofollow">comments powered by utterances.</a>
+</noscript>    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+<div class="row">
+  <ul class="col-sm-6 list-inline">
+      <li class="list-inline-item"><a href="https://velaron.github.io/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://velaron.github.io/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://velaron.github.io/categories.html">Categories</a></li>
+  </ul>
+  <p class="col-sm-6 text-sm-right text-muted">
+    Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+    / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+  </p>
+</div>    </div>
+  </footer>
+
+</body>
+
+</html>
