@@ -6,8 +6,6 @@
 I mean it, much better, playing multiplayer now sometimes feels like better than on GoldSrc, but it still needs some work.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Enhanced compatibility with GoldSrc.&lt;/strong&gt;&lt;br/&gt;
 Support for original Half-Life game saves and compatibility fixes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Customization support.&lt;/strong&gt;&lt;br/&gt;
-Finally you can change your spray and more, with in-game downloads support!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The "small" stuff:&lt;/strong&gt; &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -102,4 +100,7 @@ Finally you can change your spray and more, with in-game downloads support!&lt;/
 &lt;p&gt;Sadly we had to drop Apple devices support, simply because we don't and probably not going to own any of them and they keep removing essential features from the OS (see &lt;a href="https://github.com/FWGS/xash3d-fwgs/issues/61"&gt;issue #61&lt;/a&gt;). If you own any of these devices and are willing to maintain the engine for them, you are welcome!&lt;/p&gt;
 &lt;h1&gt;PNG support&lt;/h1&gt;
 &lt;h5&gt;by &lt;a href="https://github.com/nekonomicon"&gt;&lt;strong&gt;nekonomicon&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
-&lt;p&gt;Engine supports reading and writing PNGs now, so you can use an accessible format for your touch buttons and more. Due to conversion of touch button graphics, you may need to reset your touch configuration if you are missing some textures.&lt;/p&gt;</content><category term="Xash3D FWGS"></category></entry></feed>
+&lt;p&gt;Engine supports reading and writing PNGs now, so you can use an accessible format for your touch buttons and more. Due to conversion of touch button graphics, you may need to reset your touch configuration if you are missing some textures.&lt;/p&gt;
+&lt;h1&gt;Customization support&lt;/h1&gt;
+&lt;h5&gt;by &lt;a href="https://github.com/FWGS"&gt;&lt;strong&gt;Flying With Gauss&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
+&lt;p&gt;Finally you can change your spray and more, with in-game downloads support!&lt;/p&gt;</content><category term="Xash3D FWGS"></category></entry></feed>
