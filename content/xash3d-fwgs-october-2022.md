@@ -13,9 +13,6 @@ I mean it, much better, playing multiplayer now sometimes feels like better than
 **Enhanced compatibility with GoldSrc.**  
 Support for original Half-Life game saves and compatibility fixes.
 
-**Customization support.**  
-Finally you can change your spray and more, with in-game downloads support!
-
 **The "small" stuff:**  
 
 * Implementation of an extended map format made on top of original Half-Life's BSP30 (per-vertex lighting, extended clipnodes, etc.), BSP31 is now obsolete.
@@ -94,3 +91,7 @@ Sadly we had to drop Apple devices support, simply because we don't and probably
 # PNG support
 ##### by [**nekonomicon**](https://github.com/nekonomicon)
 Engine supports reading and writing PNGs now, so you can use an accessible format for your touch buttons and more. Due to conversion of touch button graphics, you may need to reset your touch configuration if you are missing some textures.
+
+# Customization support
+##### by [**Flying With Gauss**](https://github.com/FWGS)
+Finally you can change your spray and more, with in-game downloads support!
