@@ -76,63 +76,29 @@ I mean it, much better, playing multiplayer now sometimes feels like better than
 Support for original Half-Life game saves and compatibility fixes.</p>
 <p><strong>The "small" stuff:</strong> </p>
 <ul>
-<li>
-<p>Implementation of an extended map format made on top of original Half-Life's BSP30 (per-vertex lighting, extended clipnodes, etc.), BSP31 is now obsolete.</p>
-</li>
-<li>
-<p>Implementation of Unkle Mike's extended studiomodel format: bone weights, inverse kinematics, procedural bones and other stuff for mod developers.</p>
-</li>
-<li>
-<p>RefAPI for multiple rendering APIs support.</p>
-</li>
-<li>
-<p>OpenGL renderer split from engine to ref_gl library.</p>
-</li>
-<li>
-<p>Software renderer implementation. Incomplete, but playable.</p>
-</li>
-<li>
-<p>Improved platform backend system that allows better portability across different systems.</p>
-</li>
-<li>
-<p>Extension on library naming, that allows mod developers to distribute libraries for different operating systems and architectures in the same archive.</p>
-</li>
-<li>
-<p>New library for common code: libpublic, that holds custom Xash3D's CRT, math and hashing functions.</p>
-</li>
-<li>
-<p>New touch control: <em>_wheel</em>, works like a mouse wheel.</p>
-</li>
-<li>
-<p>Temporary support for legacy 48 protocol.</p>
-</li>
-<li>
-<p>Restored On-Screen Keyboard implementation for ports that don't have normal HW or SW keyboards.</p>
-</li>
-<li>
-<p>Support of AArch64, MIPS, Elbrus CPU architectures.</p>
-</li>
-<li>
-<p>Support of MotoMAGX platform.</p>
-</li>
-<li>
-<p>Support for systems with limited system memory. Allows to run complete engine on 32 megabytes of RAM.</p>
-</li>
-<li>
-<p>Support for embedded Linux, i.e. using evdev, fbdev and alsa directly instead of SDL2.</p>
-</li>
-<li>
-<p>Support for legacy SDL1.2.</p>
-</li>
-<li>
-<p>Support for compressed ZIP/PK3 archives.</p>
-</li>
-<li>
-<p>Linux builds are now distributed as AppImages for i686 and x86_64 platforms and dedicated builds are just a semi-static binary.</p>
-</li>
-<li>
-<p>Ongoing work on documentation of FWGS extensions, engine porting guide and ports maintainers list.</p>
-</li>
+<li>Implementation of an extended map format made on top of original Half-Life's BSP30 (per-vertex lighting, extended clipnodes, etc.), BSP31 is now obsolete.</li>
+<li>Implementation of Unkle Mike's extended studiomodel format: bone weights, inverse kinematics, procedural bones and other stuff for mod developers.</li>
+<li>RefAPI for multiple rendering APIs support: OpenGL renderer split from engine and a basic Software renderer implementation.</li>
+<li>Improved platform backend system that allows better portability across different systems.</li>
+<li>Extension on library naming, that allows mod developers to distribute libraries for different operating systems and architectures in the same archive.</li>
+<li>New library for common code: libpublic, that holds custom Xash3D's CRT, math and hashing functions.</li>
+<li>New touch control: <em>_wheel</em>, works like a mouse wheel.</li>
+<li>Temporary support for legacy 48 protocol.</li>
+<li>Restored On-Screen Keyboard implementation for ports that don't have normal HW or SW keyboards.</li>
+<li>Support of AArch64, MIPS, Elbrus and Risc-V CPU architectures.</li>
+<li>SerenityOS support.</li>
+</ul>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe allowfullscreen="" class="embed-responsive-item" src="https://www.youtube.com/embed/_sRkKZQPpO4" title="Half-Life running on SerenityOS"></iframe>
+</div>
+<ul>
+<li>Support of MotoMAGX platform.</li>
+<li>Support for systems with limited system memory. Allows to run complete engine on 32 megabytes of RAM.</li>
+<li>Support for embedded Linux, i.e. using evdev, fbdev and alsa directly instead of SDL2.</li>
+<li>Support for legacy SDL1.2.</li>
+<li>Support for compressed ZIP/PK3 archives.</li>
+<li>Non-dedicated Linux builds are now distributed as AppImages for i686 and x86_64 platforms.</li>
+<li>Ongoing work on documentation of FWGS extensions, engine porting guide and ports maintainers list.</li>
 </ul>
 <h1>Voice Chat</h1>
 <h5>by <a href="https://github.com/a1batross"><strong>a1batross</strong></a>, <a href="https://github.com/SNMetamorph"><strong>SNMetamorph</strong></a> and <a href="https://github.com/Velaron"><strong>Velaron</strong></a></h5>
@@ -141,12 +107,8 @@ Support for original Half-Life game saves and compatibility fixes.</p>
 <h5>by <a href="https://github.com/Velaron"><strong>Velaron</strong></a></h5>
 <p>We moved to SDL2 as our backend, it used to suck back then, but right now our implementation seems to suck more. You know what also sucks? Google with their OS. They keep being so paranoid about user's "security", we need to do a lot of work just to make this thing running. Right now we need to write a new frontend and finish up on fixing bugs before releasing a stable build, but it's coming better than ever.</p>
 <ul>
-<li>
-<p>Android builds have GLES1 and GLES2 renderers enabled, choose from game menu or by passing <code>-ref gles1</code> or <code>-ref gles2</code> to the command line.</p>
-</li>
-<li>
-<p>Android builds also have special mod hacks, allowing you to play some mods without any additional launchers.</p>
-</li>
+<li>Android builds have GLES1 and GLES2 renderers enabled, choose from game menu or by passing <code>-ref gles1</code> or <code>-ref gles2</code> to the command line.</li>
+<li>Android builds also have special mod hacks, allowing you to play some mods without any additional launchers.</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="n">MOD_VALVE</span><span class="p">,</span><span class="w">      </span><span class="c1">// Half-Life</span>
 <span class="n">MOD_AOM</span><span class="p">,</span><span class="w">        </span><span class="c1">// Afraid of Monsters</span>
@@ -170,8 +132,47 @@ Support for original Half-Life game saves and compatibility fixes.</p>
 <h5>by <a href="https://github.com/nekonomicon"><strong>nekonomicon</strong></a></h5>
 <p>Engine supports reading and writing PNGs now, so you can use an accessible format for your touch buttons and more. Due to conversion of touch button graphics, you may need to reset your touch configuration if you are missing some textures.</p>
 <h1>Customization support</h1>
-<h5>by <a href="https://github.com/FWGS"><strong>Flying With Gauss</strong></a></h5>
+<h5>by <strong>Uncle Mike</strong></h5>
 <p>Finally you can change your spray and more, with in-game downloads support!</p>
+<h1>Half-Life SDK (hlsdk-portable) fixes and additions</h1>
+<h5>by <a href="https://github.com/nekonomicon"><strong>nekonomicon</strong></a></h5>
+<ul>
+<li>Теперь при использовании туррели исчезает лазерный прицел от rpg.</li>
+<li>Добавлен новый квар cl_autowepswitch, для возможности отключения автоматической смены оружия при его подборе.</li>
+<li>Исправлен разброс автомата MP5.</li>
+<li>Исправлен возможный вылет при потере цели у буллсквида во время плевка.</li>
+<li>Исправлено поведение гонарча при ожидании у ноды.</li>
+<li>Исправлен ряд проблем связанных с проигрыванием скриптовых последовательностей.</li>
+<li>Частично исправлена привязка поведения сущностей к fps.</li>
+<li>Исправлена проверка для флага SF_MONSTER_GAG.</li>
+<li>При застревании монстров в стене светящие желтые точки теперь появляются только при включеном режиме разработчика</li>
+<li>Более плавные анимации удара, стрельбы, перезарядки и смены оружия.</li>
+<li>Исправлен цвет луча тау-пушки.</li>
+<li>Исправлено возможное двойное проигрывание анимации перезарядки оружия.</li>
+<li>Исправлен баг с извлечением патронов из MP5, когда запас подствольных гранат полон.</li>
+<li>Добавлен опущенный прекэш звуков для стационарных автоматических туррелей.</li>
+<li>Испрален возможный вылет во время плевка гонарча если значение квара sv_gravity равно нулю.</li>
+<li>Исправлено отображение локальной модели игрока от третьего лица.</li>
+<li>Исправлен возможный вылет при отправке сообщения о смерти игрока в мультиплеере.</li>
+<li>Ученыe теперь реагируют на запахи.</li>
+<li>Исправлено воспроизведение звуков дыхания под водой, когда игрок не полностью погружен в воду.</li>
+<li>Исправлен цвет луча глюонной пушки.</li>
+<li>Улучшено поведение монстров в стае/отряде.</li>
+<li>Исправлен цвет звуковой волны для хаундаев в стае из 5 хаундаев.</li>
+<li>В мультиплеере теперь форсирован вид от первого лица.</li>
+<li>Изменено положение камеры в режиме вида от третьего лица.</li>
+<li>Добавлен квар explosionfix, отключающий урон взрывной волны за стенами.</li>
+<li>При попадании в левую половину osprey теперь дымится левое крыло, при попадании в правую* правое, а не наоборот.</li>
+<li>Исправлен непрерывающийся в некоторых случаях звук тау-пушки.</li>
+<li>Исправлен непрерывающийся в некоторых случаях звук открытия дверей.</li>
+<li>Добавлен квар corpsephysics, для изменения физики падения трупов.</li>
+<li>Исправлена неверная бодимодель вьюмодели трипмины при первом подборе.</li>
+<li>Исправлен поворот контроллеров лицом к worldspawn во время idle-анимации.</li>
+<li>Исправлены возможные зависания на лестницах, например в моде Half-Life: Sum.</li>
+<li>Исправлена громкость голосов ученых с разными головами.</li>
+<li>Исправлено закрытие глаз у спящих хаундаев.</li>
+<li>Исправлено застревание и возможный вылет если запрыгнуть на башню танка, например на карте c2a5b.</li>
+</ul>
     </div>
   </article>
 <hr>
