@@ -143,40 +143,38 @@ Support for original Half-Life game saves and compatibility fixes.</p>
 <h5>by <a href="https://github.com/nekonomicon"><strong>nekonomicon</strong></a></h5>
 <ul>
 <li>FIXED: RPG laser visible when using func_tank.</li>
-<li>ADDED: cl_autowepswitch CVar, allows you to change automatic weapon switch behavior when picking them up.</li>
-<li>FIXED: MP5 spread being switched between singleplayer and multiplayer.</li>
+<li>FIXED: MP5 spread being switched between single-player and multiplayer.</li>
 <li>FIXED: Bullsquid's spit crashing the game.</li>
-<li>Исправлено поведение гонарча при ожидании у ноды.</li>
+<li>FIXED: Gonarch getting stuck in the tunnels.</li>
 <li>FIXED: numerous problems around playing scripted sequences.</li>
-<li>FIXED: most cases of FPS-dependent entity behaviour.</li>
+<li>FIXED: most cases of FPS-dependent entity behavior.</li>
 <li>FIXED: incorrect SF_MONSTER_GAG flag check.</li>
-<li>При застревании монстров в стене светящие желтые точки теперь появляются только при включеном режиме разработчика</li>
-<li>Более плавные анимации удара, стрельбы, перезарядки и смены оружия.</li>
-<li>FIXED: Tau Cannon's beam has invalid color.</li>
+<li>FIXED: Tau Cannon's and Gluon Gun's beams have invalid color.</li>
 <li>FIXED: reload animations playing twice sometimes.</li>
-<li>Исправлен баг с извлечением патронов из MP5, когда запас подствольных гранат полон.</li>
-<li>Добавлен опущенный прекэш звуков для стационарных автоматических туррелей.</li>
-<li>Испрален возможный вылет во время плевка гонарча если значение квара sv_gravity равно нулю.</li>
-<li>Исправлено отображение локальной модели игрока от третьего лица.</li>
-<li>Исправлен возможный вылет при отправке сообщения о смерти игрока в мультиплеере.</li>
-<li>Ученыe теперь реагируют на запахи.</li>
-<li>Исправлено воспроизведение звуков дыхания под водой, когда игрок не полностью погружен в воду.</li>
-<li>Исправлен цвет луча глюонной пушки.</li>
-<li>Улучшено поведение монстров в стае/отряде.</li>
-<li>Исправлен цвет звуковой волны для хаундаев в стае из 5 хаундаев.</li>
-<li>В мультиплеере теперь форсирован вид от первого лица.</li>
-<li>Изменено положение камеры в режиме вида от третьего лица.</li>
-<li>Добавлен квар explosionfix, отключающий урон взрывной волны за стенами.</li>
-<li>При попадании в левую половину osprey теперь дымится левое крыло, при попадании в правую* правое, а не наоборот.</li>
-<li>Исправлен непрерывающийся в некоторых случаях звук тау-пушки.</li>
-<li>Исправлен непрерывающийся в некоторых случаях звук открытия дверей.</li>
-<li>Добавлен квар corpsephysics, для изменения физики падения трупов.</li>
-<li>Исправлена неверная бодимодель вьюмодели трипмины при первом подборе.</li>
-<li>Исправлен поворот контроллеров лицом к worldspawn во время idle-анимации.</li>
-<li>Исправлены возможные зависания на лестницах, например в моде Half-Life: Sum.</li>
-<li>Исправлена громкость голосов ученых с разными головами.</li>
+<li>FIXED: buggy MP5 ammo extraction when secondary ammo is full.</li>
+<li>FIXED: missing precache for turrets.</li>
+<li>FIXED: Gonarch spit crashing the game when sv_gravity is set to 0.</li>
+<li>FIXED: incorrect model being displayed in third person mode.</li>
+<li>FIXED: possible crash when sending a death notice in multiplayer.</li>
+<li>FIXED: scientists now use their sense of smell.</li>
+<li>FIXED: breathing sounds playing when not completely underwater.</li>
+<li>FIXED: Houndeye's shockwave color when in a pack of five.</li>
+<li>FIXED: default camera position for third-person view.</li>
+<li>FIXED: wrong Osprey's wing smoking when hit.</li>
+<li>FIXED: Tau Cannon's and doors' sounds getting stuck.</li>
+<li>FIXED: invalid Tripmine's bodymodel on first pickup.</li>
+<li>FIXED: Controllers target worldspawn during idle animations.</li>
+<li>FIXED: specific ladders crashing the game (i.e. Half-Life: Sum).</li>
+<li>FIXED: scientists' volume with different heads.</li>
 <li>FIXED: sleeping Houndeyes now close their eyes.</li>
-<li>Исправлено застревание и возможный вылет если запрыгнуть на башню танка, например на карте c2a5b.</li>
+<li>FIXED: undefined behavior when jumping on tank's turret (i.e. c2a5b).</li>
+<li>ADDED: cl_autowepswitch CVar, allows you to change automatic weapon switch behavior when picking them up.</li>
+<li>ADDED: explosionfix CVar, fixes explosive damage through walls.</li>
+<li>ADDED: corpsephysics CVar, makes corpses fly from an impact.</li>
+<li>Yellow "stuck monster" particles are only visible when using developer mode.</li>
+<li>Much more fluid weapon animations.</li>
+<li>Improved monsters' squad behavior.</li>
+<li>First-person mode is now enforced in multiplayer.</li>
 </ul>
     </div>
   </article>
