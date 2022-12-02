@@ -36,6 +36,7 @@ Support for original Half-Life game saves and compatibility fixes.
 * Support for compressed ZIP/PK3 archives.
 * Non-dedicated Linux builds are now distributed as AppImages for i686 and x86_64 platforms.
 * Ongoing work on documentation of FWGS extensions, engine porting guide and ports maintainers list.
+* IPv6 support.
 
 # Voice Chat
 ##### by [**a1batross**](https://github.com/a1batross), [**SNMetamorph**](https://github.com/SNMetamorph) and [**Velaron**](https://github.com/Velaron)
@@ -85,7 +86,7 @@ Sadly we had to drop Apple devices support, simply because we don't and probably
 Engine supports reading and writing PNGs now, so you can use an accessible format for your touch buttons and more. Due to conversion of touch button graphics, you may need to reset your touch configuration if you are missing some textures.
 
 # Half-Life SDK (hlsdk-portable) fixes and additions
-##### by [**nekonomicon**](https://github.com/nekonomicon)
+##### by [**nekonomicon**](https://github.com/nekonomicon), [**FreeSlave**](https://github.com/FreeSlave), [**a1batross**](https://github.com/a1batross) and [**malortie**](https://github.com/malortie)
 * FIXED: RPG laser visible when using func_tank.
 * FIXED: MP5 spread being switched between single-player and multiplayer.
 * FIXED: Bullsquid's spit crashing the game.
