@@ -87,37 +87,35 @@ Engine supports reading and writing PNGs now, so you can use an accessible forma
 # Half-Life SDK (hlsdk-portable) fixes and additions
 ##### by [**nekonomicon**](https://github.com/nekonomicon)
 * FIXED: RPG laser visible when using func_tank.
-* ADDED: cl_autowepswitch CVar, allows you to change automatic weapon switch behavior when picking them up.
-* FIXED: MP5 spread being switched between singleplayer and multiplayer.
+* FIXED: MP5 spread being switched between single-player and multiplayer.
 * FIXED: Bullsquid's spit crashing the game.
-* Исправлено поведение гонарча при ожидании у ноды.
+* FIXED: Gonarch getting stuck in the tunnels.
 * FIXED: numerous problems around playing scripted sequences.
-* FIXED: most cases of FPS-dependent entity behaviour.
+* FIXED: most cases of FPS-dependent entity behavior.
 * FIXED: incorrect SF_MONSTER_GAG flag check.
-* При застревании монстров в стене светящие желтые точки теперь появляются только при включеном режиме разработчика
-* Более плавные анимации удара, стрельбы, перезарядки и смены оружия.
-* FIXED: Tau Cannon's beam has invalid color.
+* FIXED: Tau Cannon's and Gluon Gun's beams have invalid color.
 * FIXED: reload animations playing twice sometimes.
-* Исправлен баг с извлечением патронов из MP5, когда запас подствольных гранат полон.
-* Добавлен опущенный прекэш звуков для стационарных автоматических туррелей.
-* Испрален возможный вылет во время плевка гонарча если значение квара sv_gravity равно нулю.
-* Исправлено отображение локальной модели игрока от третьего лица.
-* Исправлен возможный вылет при отправке сообщения о смерти игрока в мультиплеере.
-* Ученыe теперь реагируют на запахи.
-* Исправлено воспроизведение звуков дыхания под водой, когда игрок не полностью погружен в воду.
-* Исправлен цвет луча глюонной пушки.
-* Улучшено поведение монстров в стае/отряде.
-* Исправлен цвет звуковой волны для хаундаев в стае из 5 хаундаев.
-* В мультиплеере теперь форсирован вид от первого лица.
-* Изменено положение камеры в режиме вида от третьего лица.
-* Добавлен квар explosionfix, отключающий урон взрывной волны за стенами.
-* При попадании в левую половину osprey теперь дымится левое крыло, при попадании в правую* правое, а не наоборот.
-* Исправлен непрерывающийся в некоторых случаях звук тау-пушки.
-* Исправлен непрерывающийся в некоторых случаях звук открытия дверей.
-* Добавлен квар corpsephysics, для изменения физики падения трупов.
-* Исправлена неверная бодимодель вьюмодели трипмины при первом подборе.
-* Исправлен поворот контроллеров лицом к worldspawn во время idle-анимации.
-* Исправлены возможные зависания на лестницах, например в моде Half-Life: Sum.
-* Исправлена громкость голосов ученых с разными головами.
+* FIXED: buggy MP5 ammo extraction when secondary ammo is full.
+* FIXED: missing precache for turrets.
+* FIXED: Gonarch spit crashing the game when sv_gravity is set to 0.
+* FIXED: incorrect model being displayed in third person mode.
+* FIXED: possible crash when sending a death notice in multiplayer.
+* FIXED: scientists now use their sense of smell.
+* FIXED: breathing sounds playing when not completely underwater.
+* FIXED: Houndeye's shockwave color when in a pack of five.
+* FIXED: default camera position for third-person view.
+* FIXED: wrong Osprey's wing smoking when hit.
+* FIXED: Tau Cannon's and doors' sounds getting stuck.
+* FIXED: invalid Tripmine's bodymodel on first pickup.
+* FIXED: Controllers target worldspawn during idle animations.
+* FIXED: specific ladders crashing the game (i.e. Half-Life: Sum).
+* FIXED: scientists' volume with different heads.
 * FIXED: sleeping Houndeyes now close their eyes.
-* Исправлено застревание и возможный вылет если запрыгнуть на башню танка, например на карте c2a5b.
+* FIXED: undefined behavior when jumping on tank's turret (i.e. c2a5b).
+* ADDED: cl_autowepswitch CVar, allows you to change automatic weapon switch behavior when picking them up.
+* ADDED: explosionfix CVar, fixes explosive damage through walls.
+* ADDED: corpsephysics CVar, makes corpses fly from an impact.
+* Yellow "stuck monster" particles are only visible when using developer mode.
+* Much more fluid weapon animations.
+* Improved monsters' squad behavior.
+* First-person mode is now enforced in multiplayer.
