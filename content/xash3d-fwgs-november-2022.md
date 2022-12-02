@@ -1,5 +1,5 @@
 Title: Xash3D FWGS - November 2022
-Date: 2022-12-01 20:00
+Date: 2022-12-02 12:00
 Category: Xash3D FWGS
 Summary: Catching up on what was going on with the engine until now.
 
