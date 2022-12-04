@@ -38,7 +38,7 @@ Support for original Half-Life game saves and compatibility fixes.
 * Ongoing work on documentation of FWGS extensions, engine porting guide and ports maintainers list.
 * IPv6 support.
 
-# Voice Chat
+# Voice chat
 ##### by [**a1batross**](https://github.com/a1batross), [**SNMetamorph**](https://github.com/SNMetamorph) and [**Velaron**](https://github.com/Velaron)
 Voice chat support is finally coming to all platforms, as requested by many for years.
 
@@ -51,7 +51,7 @@ Finally you can change your spray and more, with in-game downloads support!
 	</video>
 </div>
 
-# New Android Port
+# New Android port
 ##### by [**Velaron**](https://github.com/Velaron)
 We moved to SDL2 as our backend, it used to suck back then, but right now our implementation seems to suck more. You know what also sucks? Google with their OS. They keep being so paranoid about user's "security", we need to do a lot of work just to make this thing running. Right now we need to write a new frontend and finish up on fixing bugs before releasing a stable build, but it's coming better than ever.
 
@@ -72,7 +72,7 @@ MOD_TOT,		// Times of Troubles
 MOD_URBICIDE	// Half-Life: Urbicide
 ```
 
-# filesystem_stdio Implementation
+# filesystem_stdio implementation
 ##### by [**a1batross**](https://github.com/a1batross)
 Engine's filesystem was moved into a separate module, which also implements support for Valve's interface allowing to run more mods and clean up the codebase.
 
@@ -84,6 +84,15 @@ Sadly we had to drop Apple devices support, simply because we don't and probably
 # PNG support
 ##### by [**nekonomicon**](https://github.com/nekonomicon)
 Engine supports reading and writing PNGs now, so you can use an accessible format for your touch buttons and more. Due to conversion of touch button graphics, you may need to reset your touch configuration if you are missing some textures.
+
+# New model decompiler
+##### by [**nekonomicon**](https://github.com/nekonomicon)
+Baed on Kratisto's mdldec, support non-Windows platforms, Paranoia 2/XashXT extensions and doesn't depend on any engine limits.  
+[Get on ModDB](https://www.moddb.com/engines/xash3d-fwgs-engine/downloads/half-life-studio-model-decompilerwin32-linux).
+
+# Privileged commands/CVars system
+##### by [**a1batross**](https://github.com/a1batross)
+Lots of server admins used to get access to unwanted data and crash or even destroy your game files. This should no longer be possible.
 
 # Half-Life SDK (hlsdk-portable) fixes and additions
 ##### by [**nekonomicon**](https://github.com/nekonomicon), [**FreeSlave**](https://github.com/FreeSlave), [**a1batross**](https://github.com/a1batross) and [**malortie**](https://github.com/malortie)
