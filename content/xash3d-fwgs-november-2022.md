@@ -87,7 +87,7 @@ Engine supports reading and writing PNGs now, so you can use an accessible forma
 
 # New model decompiler
 ##### by [**nekonomicon**](https://github.com/nekonomicon)
-Baed on Kratisto's mdldec, support non-Windows platforms, Paranoia 2/XashXT extensions and doesn't depend on any engine limits.  
+Based on Kratisto's mdldec, supports non-Windows platforms, Paranoia 2/XashXT extensions and doesn't depend on any engine limits.  
 [Get on ModDB](https://www.moddb.com/engines/xash3d-fwgs-engine/downloads/half-life-studio-model-decompilerwin32-linux).
 
 # Privileged commands/CVars system
