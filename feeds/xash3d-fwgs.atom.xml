@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>blog.bds - Xash3D FWGS</title><link href="https://velaron.github.io/" rel="alternate"></link><link href="https://velaron.github.io/feeds/xash3d-fwgs.atom.xml" rel="self"></link><id>https://velaron.github.io/</id><updated>2023-11-22T12:00:00+02:00</updated><subtitle>i have crippling depression</subtitle><entry><title>Xash3D FWGS - November 2023</title><link href="https://velaron.github.io/xash3d-fwgs-november-2023.html" rel="alternate"></link><published>2023-11-22T12:00:00+02:00</published><updated>2023-11-22T12:00:00+02:00</updated><author><name>Velaron</name></author><id>tag:velaron.github.io,2023-11-22:/xash3d-fwgs-november-2023.html</id><summary type="html">&lt;p&gt;Catching up on what was going on with the engine until now (again).&lt;/p&gt;</summary><content type="html">&lt;p&gt;While we want to do a stable release as soon as possible, there is still lots of stuff to do before we switch all our users to the new codebase.&lt;/p&gt;
-&lt;h1&gt;Consider Donating&lt;/h1&gt;
-&lt;h5&gt;by &lt;a href="https://github.com/FWGS"&gt;&lt;strong&gt;Flying With Gauss&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
-&lt;h3&gt;&lt;a href="https://github.com/a1batross"&gt;&lt;strong&gt;a1batross&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Consider Donating&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/a1batross"&gt;&lt;strong&gt;a1batross&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Initial Xash3D SDL2/Linux port author, Xash3D FWGS engine maintainer, creator of non-commercial Flying With Gauss organization.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Boosty page: &lt;a href="https://boosty.to/a1ba"&gt;https://boosty.to/a1ba&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;a href="https://github.com/nekonomicon"&gt;&lt;strong&gt;nekonomicon&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/nekonomicon"&gt;&lt;strong&gt;nekonomicon&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/FWGS/hlsdk-portable"&gt;hlsdk-portable&lt;/a&gt;, &lt;a href="https://github.com/FWGS/xash3d-fwgs/tree/master/utils/mdldec"&gt;mdldec&lt;/a&gt;, &lt;a href="https://github.com/FWGS/xash3d-fwgs/blob/master/Documentation/opensource-mods.md"&gt;opensource-mods.md&lt;/a&gt; maintainer and Xash3D FWGS &lt;a href="https://github.com/FWGS/xash3d-fwgs/commits?author=nekonomicon"&gt;contributor&lt;/a&gt; (*BSD/clang port, PNG support, etc).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Boosty page: &lt;a href="https://boosty.to/nekonomicon"&gt;https://boosty.to/nekonomicon&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;a href="https://github.com/Velaron"&gt;&lt;strong&gt;Velaron&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Velaron"&gt;&lt;strong&gt;Velaron&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/Velaron/cs16-client"&gt;cs16-client&lt;/a&gt; &amp;amp; &lt;a href="https://github.com/Velaron/tf15-client"&gt;tf15-client&lt;/a&gt; maintainer and Xash3D FWGS &lt;a href="https://github.com/FWGS/xash3d-fwgs/commits?author=Velaron"&gt;contributor&lt;/a&gt; (Android port, voice chat, etc).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Buy Me A Coffee page: &lt;a href="https://www.buymeacoffee.com/velaron"&gt;https://www.buymeacoffee.com/velaron&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;a href="https://github.com/SNMetamorph"&gt;&lt;strong&gt;SNMetamorph&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/SNMetamorph"&gt;&lt;strong&gt;SNMetamorph&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/SNMetamorph/PrimeXT"&gt;PrimeXT&lt;/a&gt; &amp;amp; &lt;a href="https://github.com/SNMetamorph/goldsrc-monitor"&gt;GoldSrc Monitor&lt;/a&gt; maintainer and Xash3D FWGS &lt;a href="https://github.com/FWGS/xash3d-fwgs/commits?author=SNMetamorph"&gt;contributor&lt;/a&gt; (Windows port, voice chat, etc).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;BTC: &lt;code&gt;16GAzK3qei5AwBW7sggXp3yNcFHBtdpxXj&lt;/code&gt;&lt;/li&gt;
