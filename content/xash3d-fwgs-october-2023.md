@@ -74,6 +74,7 @@ But very VFW specific internal engine logic, bites me. Instead of normal playbac
 </div>
 
 # GoldSrc protocol / VGUI2 support (WIP)
+##### by [**a1batross**](https://github.com/a1batross)
 Experimental support of GoldSrc protocol on [**goldsrc-proto**](https://github.com/FWGS/xash3d-fwgs/tree/goldsrc-proto) branch. Also progress being made on supporting VGUI2 on the [**new_vgui_support_api**](https://github.com/FWGS/xash3d-fwgs/tree/new_vgui_support_api) branch.
 
 ![Screenshot]({static}/images/goldsrc-proto-1.png)
@@ -90,4 +91,5 @@ Unlike Nagist's implementation, this library specifically hasn't been derived fr
 Source code will be published as soon as I finish implementing the controls library and when I decide on licensing. For now, it has dependency on 3-clause BSD licensed C++ templates library, and C utilities library from Xash3D FWGS which is GPLv2 licensed. I'll probably drop GPL dependency to allow it included in Half-Life mods as a bug fixed replacement of original vgui code, when it will have bug fixes in the first place.
 
 # Half-Life 25th Anniversary
+##### by [**Flying With Gauss**](https://github.com/FWGS)
 With Half-Life turning whole 25 years, Valve released an update to the game which we now support too (make sure to update your engine to the latest version). I would like to personally thank everyone who has been supporting the developers and Xash3D FWGS all these years, stay tuned for more updates and have fun!
