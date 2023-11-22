@@ -5,26 +5,27 @@ Summary: Catching up on what was going on with the engine until now (again).
 
 While we want to do a stable release as soon as possible, there is still lots of stuff to do before we switch all our users to the new codebase.
 
-# Consider Donating
-##### by [**Flying With Gauss**](https://github.com/FWGS)
-### [**a1batross**](https://github.com/a1batross)
+### Consider Donating
+[**a1batross**](https://github.com/a1batross)
 
 Initial Xash3D SDL2/Linux port author, Xash3D FWGS engine maintainer, creator of non-commercial Flying With Gauss organization.
 
 * Boosty page: <https://boosty.to/a1ba>
 
-### [**nekonomicon**](https://github.com/nekonomicon)
+[**nekonomicon**](https://github.com/nekonomicon)
 
 [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), [mdldec](https://github.com/FWGS/xash3d-fwgs/tree/master/utils/mdldec), [opensource-mods.md](https://github.com/FWGS/xash3d-fwgs/blob/master/Documentation/opensource-mods.md) maintainer and Xash3D FWGS [contributor](https://github.com/FWGS/xash3d-fwgs/commits?author=nekonomicon) (*BSD/clang port, PNG support, etc).
 
 * Boosty page: <https://boosty.to/nekonomicon>
 
-### [**Velaron**](https://github.com/Velaron)
+[**Velaron**](https://github.com/Velaron)
+
 [cs16-client](https://github.com/Velaron/cs16-client) & [tf15-client](<https://github.com/Velaron/tf15-client>) maintainer and Xash3D FWGS [contributor](<https://github.com/FWGS/xash3d-fwgs/commits?author=Velaron>) (Android port, voice chat, etc).
 
 * Buy Me A Coffee page: <https://www.buymeacoffee.com/velaron>
 
-### [**SNMetamorph**](https://github.com/SNMetamorph)
+[**SNMetamorph**](https://github.com/SNMetamorph)
+
 [PrimeXT](https://github.com/SNMetamorph/PrimeXT) & [GoldSrc Monitor](https://github.com/SNMetamorph/goldsrc-monitor) maintainer and Xash3D FWGS [contributor](https://github.com/FWGS/xash3d-fwgs/commits?author=SNMetamorph) (Windows port, voice chat, etc).
 
 * BTC: `16GAzK3qei5AwBW7sggXp3yNcFHBtdpxXj`
