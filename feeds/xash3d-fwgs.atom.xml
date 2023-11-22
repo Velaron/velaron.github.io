@@ -29,7 +29,7 @@
 &lt;ul&gt;
 &lt;li&gt;Fix for streaming and other overlays (OBS, Discord, etc.)&lt;/li&gt;
 &lt;li&gt;IPv6 support&lt;/li&gt;
-&lt;li&gt;Added support for lopping .mp3 files with ID3v2 tags&lt;/li&gt;
+&lt;li&gt;Added support for looping .mp3 files with ID3v2 tags&lt;/li&gt;
 &lt;li&gt;Anti-speedhack protection&lt;/li&gt;
 &lt;li&gt;Minidumps support for Windows&lt;/li&gt;
 &lt;li&gt;Demo RCE exploits fixed&lt;/li&gt;
