@@ -78,6 +78,7 @@ But very VFW specific internal engine logic, bites me. Instead of normal playbac
 Experimental support of GoldSrc protocol on [**goldsrc-proto**](https://github.com/FWGS/xash3d-fwgs/tree/goldsrc-proto) branch. Also progress being made on supporting VGUI2 on the [**new_vgui_support_api**](https://github.com/FWGS/xash3d-fwgs/tree/new_vgui_support_api) branch.
 
 ![Screenshot]({static}/images/goldsrc-proto-1.png)
+
 ![Screenshot]({static}/images/goldsrc-proto-2.png)
 
 # FreeVGUI
