@@ -37,7 +37,7 @@ Initial Xash3D SDL2/Linux port author, Xash3D FWGS engine maintainer, creator of
 ##### by [**Flying With Gauss**](https://github.com/FWGS)
 * Fix for streaming and other overlays (OBS, Discord, etc.)
 * IPv6 support
-* Added support for lopping .mp3 files with ID3v2 tags
+* Added support for looping .mp3 files with ID3v2 tags
 * Anti-speedhack protection
 * Minidumps support for Windows
 * Demo RCE exploits fixed
