@@ -61,8 +61,8 @@
 &lt;h1&gt;GoldSrc protocol / VGUI2 support (WIP)&lt;/h1&gt;
 &lt;h5&gt;by &lt;a href="https://github.com/a1batross"&gt;&lt;strong&gt;a1batross&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
 &lt;p&gt;Experimental support of GoldSrc protocol on &lt;a href="https://github.com/FWGS/xash3d-fwgs/tree/goldsrc-proto"&gt;&lt;strong&gt;goldsrc-proto&lt;/strong&gt;&lt;/a&gt; branch. Also progress being made on supporting VGUI2 on the &lt;a href="https://github.com/FWGS/xash3d-fwgs/tree/new_vgui_support_api"&gt;&lt;strong&gt;new_vgui_support_api&lt;/strong&gt;&lt;/a&gt; branch.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot" class="img-fluid" src="https://velaron.github.io/images/goldsrc-proto-1.png"/&gt;
-&lt;img alt="Screenshot" class="img-fluid" src="https://velaron.github.io/images/goldsrc-proto-2.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" class="img-fluid" src="https://velaron.github.io/images/goldsrc-proto-1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" class="img-fluid" src="https://velaron.github.io/images/goldsrc-proto-2.png"/&gt;&lt;/p&gt;
 &lt;h1&gt;FreeVGUI&lt;/h1&gt;
 &lt;h5&gt;by &lt;a href="https://github.com/FWGS"&gt;&lt;strong&gt;Flying With Gauss&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
 &lt;p&gt;Announcing clean-er re-implementation of original Valve's GUI library from Half-Life 1 under the work title freevgui. I'm working on it since last year in my free time of free time of free time.&lt;/p&gt;
