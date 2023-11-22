@@ -59,6 +59,7 @@
 &lt;/video&gt;
 &lt;/div&gt;
 &lt;h1&gt;GoldSrc protocol / VGUI2 support (WIP)&lt;/h1&gt;
+&lt;h5&gt;by &lt;a href="https://github.com/a1batross"&gt;&lt;strong&gt;a1batross&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
 &lt;p&gt;Experimental support of GoldSrc protocol on &lt;a href="https://github.com/FWGS/xash3d-fwgs/tree/goldsrc-proto"&gt;&lt;strong&gt;goldsrc-proto&lt;/strong&gt;&lt;/a&gt; branch. Also progress being made on supporting VGUI2 on the &lt;a href="https://github.com/FWGS/xash3d-fwgs/tree/new_vgui_support_api"&gt;&lt;strong&gt;new_vgui_support_api&lt;/strong&gt;&lt;/a&gt; branch.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Screenshot" class="img-fluid" src="https://velaron.github.io/images/goldsrc-proto-1.png"/&gt;
 &lt;img alt="Screenshot" class="img-fluid" src="https://velaron.github.io/images/goldsrc-proto-2.png"/&gt;&lt;/p&gt;
@@ -69,6 +70,7 @@
 &lt;p&gt;Unlike Nagist's implementation, this library specifically hasn't been derived from HLSDK code, and every line of code has been carefully restored from DWARF debug information and decompilation using Ghidra.&lt;/p&gt;
 &lt;p&gt;Source code will be published as soon as I finish implementing the controls library and when I decide on licensing. For now, it has dependency on 3-clause BSD licensed C++ templates library, and C utilities library from Xash3D FWGS which is GPLv2 licensed. I'll probably drop GPL dependency to allow it included in Half-Life mods as a bug fixed replacement of original vgui code, when it will have bug fixes in the first place.&lt;/p&gt;
 &lt;h1&gt;Half-Life 25th Anniversary&lt;/h1&gt;
+&lt;h5&gt;by &lt;a href="https://github.com/FWGS"&gt;&lt;strong&gt;Flying With Gauss&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
 &lt;p&gt;With Half-Life turning whole 25 years, Valve released an update to the game which we now support too (make sure to update your engine to the latest version). I would like to personally thank everyone who has been supporting the developers and Xash3D FWGS all these years, stay tuned for more updates and have fun!&lt;/p&gt;</content><category term="Xash3D FWGS"></category></entry><entry><title>Xash3D FWGS - November 2022</title><link href="https://velaron.github.io/xash3d-fwgs-november-2022.html" rel="alternate"></link><published>2022-12-02T12:00:00+02:00</published><updated>2022-12-02T12:00:00+02:00</updated><author><name>Velaron</name></author><id>tag:velaron.github.io,2022-12-02:/xash3d-fwgs-november-2022.html</id><summary type="html">&lt;p&gt;Catching up on what was going on with the engine until now.&lt;/p&gt;</summary><content type="html">&lt;p&gt;As you may have noticed, we often refer to the engine as "old engine", that's because for a while now we have been moving onto a new codebase, refactoring and adding features along, such as much requested &lt;strong&gt;voice chat&lt;/strong&gt;.&lt;/p&gt;
 &lt;h1&gt;What Is Coming?&lt;/h1&gt;
 &lt;h5&gt;by &lt;a href="https://github.com/FWGS"&gt;&lt;strong&gt;Flying With Gauss&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
