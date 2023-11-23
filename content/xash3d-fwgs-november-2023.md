@@ -50,6 +50,7 @@ Initial Xash3D SDL2/Linux port author, Xash3D FWGS engine maintainer, creator of
 * PlayStation Portable port by [**Crow_bar**](https://github.com/Crow_bar)
 * **mdldec** utility updated with bone weights support and bugfixes
 * KTX2 textures support
+* Initial SailfishOS/AuroraOS support
 
 # .pk3dir Support
 ##### by [**a1batross**](https://github.com/a1batross)
