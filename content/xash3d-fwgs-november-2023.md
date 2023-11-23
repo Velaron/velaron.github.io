@@ -38,7 +38,6 @@ Initial Xash3D SDL2/Linux port author, Xash3D FWGS engine maintainer, creator of
 * Fix for streaming and other overlays (OBS, Discord, etc.)
 * IPv6 support
 * Added support for looping .mp3 files with ID3v2 tags
-* Anti-speedhack protection
 * Minidumps support for Windows
 * Demo RCE exploits fixed
 * Improved and faster filesystem for Linux
@@ -46,7 +45,6 @@ Initial Xash3D SDL2/Linux port author, Xash3D FWGS engine maintainer, creator of
 * VBO is back with bugfixes
 * New GLES3Compat renderer
 * PlayStation Vita port by [**fgsfds**](https://github.com/fgsfdsfgs)
-* Cross-platform port of [**The Wastes**](https://git.mentality.rip/a1batross/halflife-thewastes-sdk) by [**a1batross**](https://github.com/a1batross)
 * Nintendo Switch port by [**fgsfds**](https://github.com/fgsfdsfgs)
 * MacOS port by [**sofakng**](https://github.com/sofakng)
 * PlayStation Portable port by [**Crow_bar**](https://github.com/Crow_bar)
