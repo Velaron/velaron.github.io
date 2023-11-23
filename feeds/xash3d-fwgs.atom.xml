@@ -42,6 +42,7 @@
 &lt;li&gt;PlayStation Portable port by &lt;a href="https://github.com/Crow_bar"&gt;&lt;strong&gt;Crow_bar&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;mdldec&lt;/strong&gt; utility updated with bone weights support and bugfixes&lt;/li&gt;
 &lt;li&gt;KTX2 textures support&lt;/li&gt;
+&lt;li&gt;Initial SailfishOS/AuroraOS support&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;.pk3dir Support&lt;/h1&gt;
 &lt;h5&gt;by &lt;a href="https://github.com/a1batross"&gt;&lt;strong&gt;a1batross&lt;/strong&gt;&lt;/a&gt;&lt;/h5&gt;
